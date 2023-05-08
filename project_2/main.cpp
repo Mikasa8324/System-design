@@ -4,5 +4,5 @@ int main()
 {
 	calculator number;
 	number.calculator_();
-	return 0; 
+	return 0;
 }

@@ -2,7 +2,13 @@
 
 void calculator::input()
 {
-	std::cout << "1. Add two numbers\n" << "2. Subtract two numbers\n" << "3. Multiply two numbers\n" << "4. Divide two numbers\n" << "5. Factorial of a number\n" << "6. Find the zeroes at the end of factorial of a number\n" << "7. zen mode ( free mode)" << std::endl;
+	std::cout << "1. Add two numbers\n"
+			  << "2. Subtract two numbers\n"
+			  << "3. Multiply two numbers\n"
+			  << "4. Divide two numbers\n"
+			  << "5. Factorial of a number\n"
+			  << "6. Find the zeroes at the end of factorial of a number\n"
+			  << "7. zen mode ( free mode)" << std::endl;
 	std::cin >> choice;
 }
 
